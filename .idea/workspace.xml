@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a828bc5-5307-479f-9b9e-8d27439b9494" name="Changes" comment="add Builder">
-      <change afterPath="$PROJECT_DIR$/src/Builder/Device.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder/DeviceBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder/NameDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder/PcDeviceBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder/PhoneDeviceBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prototype/Copyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prototype/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prototype/Project.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -44,7 +40,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Builder.Program">
+  <component name="RunManager" selected="Application.Prototype.Program">
     <configuration name="AbstractFactory.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AbstractFactory.Program" />
       <module name="patterns" />
@@ -84,6 +80,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Prototype.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Prototype.Program" />
+      <module name="patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Singleton.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Singleton.Program" />
       <module name="patterns" />
@@ -99,6 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Prototype.Program" />
         <item itemvalue="Application.Builder.Program" />
         <item itemvalue="Application.Singleton.Program" />
         <item itemvalue="Application.AbstractFactory.Program" />
@@ -136,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662638317907</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add Builder">
+      <created>1662646957430</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662646957430</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
