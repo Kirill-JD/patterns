@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a828bc5-5307-479f-9b9e-8d27439b9494" name="Changes" comment="add FactoryMethod">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/ComboFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Dessert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Dish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Drink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/fastFood/Cheeseburger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/fastFood/FastFoodComboFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/fastFood/IceCream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/fastFood/Soda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/restaurant/Fresh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/restaurant/Pasta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/restaurant/Profiteroles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/restaurant/RestaurantComboFactory.java" afterDir="false" />
+    <list default="true" id="9a828bc5-5307-479f-9b9e-8d27439b9494" name="Changes" comment="add AbstractFactory">
+      <change afterPath="$PROJECT_DIR$/src/Singleton/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Singleton/ProgramLogger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +38,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AbstractFactory.Program">
+  <component name="RunManager" selected="Application.Singleton.Program">
     <configuration name="AbstractFactory.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AbstractFactory.Program" />
       <module name="patterns" />
@@ -77,8 +65,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Singleton.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Singleton.Program" />
+      <module name="patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Singleton.Program" />
         <item itemvalue="Application.AbstractFactory.Program" />
         <item itemvalue="Application.Program" />
       </list>
@@ -100,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662634718313</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add AbstractFactory">
+      <created>1662637030464</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662637030464</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,6 +125,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add FactoryMethod" />
-    <option name="LAST_COMMIT_MESSAGE" value="add FactoryMethod" />
+    <MESSAGE value="add AbstractFactory" />
+    <option name="LAST_COMMIT_MESSAGE" value="add AbstractFactory" />
   </component>
 </project>
