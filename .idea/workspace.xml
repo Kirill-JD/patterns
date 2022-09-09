@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a828bc5-5307-479f-9b9e-8d27439b9494" name="Changes" comment="add Prototype">
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Adapter/AdapterDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Adapter/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Adapter/DatabaseApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Adapter/Program.java" afterDir="false" />
+    <list default="true" id="9a828bc5-5307-479f-9b9e-8d27439b9494" name="Changes" comment="add Adapter">
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Bridge/Device.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Bridge/PcDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Bridge/PhoneDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Bridge/Place.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Bridge/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Bridge/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Bridge/Warehouse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +45,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/It/IdeaProjects/patterns/src/CreationalPatterns&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StructuralPatterns.Adapter.Program">
+  <component name="RunManager" selected="Application.Program">
     <configuration name="CreationalPatterns.AbstractFactory.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CreationalPatterns.AbstractFactory.Program" />
       <module name="patterns" />
@@ -69,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreationalPatterns.FactoryMethod.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CreationalPatterns.FactoryMethod.Program" />
+    <configuration name="CreationalPatterns.Singleton.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CreationalPatterns.Singleton.Program" />
       <module name="patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CreationalPatterns.FactoryMethod.*" />
+          <option name="PATTERN" value="CreationalPatterns.Singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreationalPatterns.Singleton.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CreationalPatterns.Singleton.Program" />
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StructuralPatterns.Bridge.Program" />
       <module name="patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CreationalPatterns.Singleton.*" />
+          <option name="PATTERN" value="StructuralPatterns.Bridge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Program" />
         <item itemvalue="Application.StructuralPatterns.Adapter.Program" />
         <item itemvalue="Application.CreationalPatterns.Builder.Program" />
         <item itemvalue="Application.CreationalPatterns.Singleton.Program" />
         <item itemvalue="Application.CreationalPatterns.AbstractFactory.Program" />
-        <item itemvalue="Application.CreationalPatterns.FactoryMethod.Program" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662649697068</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add Adapter">
+      <created>1662721904101</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662721904101</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +199,7 @@
     <MESSAGE value="add Singleton" />
     <MESSAGE value="add Builder" />
     <MESSAGE value="add Prototype" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Prototype" />
+    <MESSAGE value="add Adapter" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Adapter" />
   </component>
 </project>
