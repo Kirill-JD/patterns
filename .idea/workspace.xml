@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a828bc5-5307-479f-9b9e-8d27439b9494" name="Changes" comment="add Decorator">
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Facade/Dish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Facade/OrderCombo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Facade/Pasta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Facade/Profiteroles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Facade/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Facade/Tea.java" afterDir="false" />
+    <list default="true" id="9a828bc5-5307-479f-9b9e-8d27439b9494" name="Changes" comment="add Facade">
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Flyweight/Dish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Flyweight/DishFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Flyweight/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Flyweight/Pasta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Flyweight/Profiteroles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Flyweight/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,37 +41,25 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/It/IdeaProjects/patterns/src/StructuralPatterns/Facade"
+    "last_opened_file_path": "C:/Users/It/IdeaProjects/patterns/src/StructuralPatterns/Flyweight"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\It\IdeaProjects\patterns\src\StructuralPatterns\Flyweight" />
       <recent name="C:\Users\It\IdeaProjects\patterns\src\StructuralPatterns\Facade" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="StructuralPatterns.Composite" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StructuralPatterns.Facade.Program">
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StructuralPatterns.Bridge.Program" />
+  <component name="RunManager" selected="Application.StructuralPatterns.Flyweight.Program">
+    <configuration name="FlyweightTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StructuralPatterns.Flyweight.FlyweightTest" />
       <module name="patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StructuralPatterns.Bridge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StructuralPatterns.Adapter.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StructuralPatterns.Adapter.Program" />
-      <module name="patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StructuralPatterns.Adapter.*" />
+          <option name="PATTERN" value="StructuralPatterns.Flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,13 +106,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StructuralPatterns.Flyweight.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StructuralPatterns.Flyweight.Program" />
+      <module name="patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StructuralPatterns.Flyweight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StructuralPatterns.Flyweight.Program" />
+        <item itemvalue="Application.FlyweightTest" />
         <item itemvalue="Application.StructuralPatterns.Facade.Program" />
         <item itemvalue="Application.StructuralPatterns.Decorator.Program" />
         <item itemvalue="Application.StructuralPatterns.Composite.Program" />
-        <item itemvalue="Application.Program" />
-        <item itemvalue="Application.StructuralPatterns.Adapter.Program" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662732597493</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add Facade">
+      <created>1662994773466</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1662994773466</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,6 +239,7 @@
     <MESSAGE value="add Bridge" />
     <MESSAGE value="add Composite" />
     <MESSAGE value="add Decorator" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Decorator" />
+    <MESSAGE value="add Facade" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Facade" />
   </component>
 </project>
