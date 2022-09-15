@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a828bc5-5307-479f-9b9e-8d27439b9494" name="Changes" comment="add Facade">
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Flyweight/Dish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Flyweight/DishFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Flyweight/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Flyweight/Pasta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Flyweight/Profiteroles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Flyweight/Program.java" afterDir="false" />
+    <list default="true" id="9a828bc5-5307-479f-9b9e-8d27439b9494" name="Changes" comment="add Flyweight">
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Proxy/Dish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Proxy/Pasta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Proxy/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StructuralPatterns/Proxy/ProxyDish.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,11 +39,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/It/IdeaProjects/patterns/src/StructuralPatterns/Flyweight"
+    "last_opened_file_path": "C:/Users/It/IdeaProjects/patterns/src/StructuralPatterns/Proxy"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\It\IdeaProjects\patterns\src\StructuralPatterns\Proxy" />
       <recent name="C:\Users\It\IdeaProjects\patterns\src\StructuralPatterns\Flyweight" />
       <recent name="C:\Users\It\IdeaProjects\patterns\src\StructuralPatterns\Facade" />
     </key>
@@ -53,7 +52,7 @@
       <recent name="StructuralPatterns.Composite" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StructuralPatterns.Flyweight.Program">
+  <component name="RunManager" selected="Application.Program">
     <configuration name="FlyweightTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StructuralPatterns.Flyweight.FlyweightTest" />
       <module name="patterns" />
@@ -67,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StructuralPatterns.Composite.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StructuralPatterns.Composite.Program" />
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StructuralPatterns.Proxy.Program" />
       <module name="patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StructuralPatterns.Composite.*" />
+          <option name="PATTERN" value="StructuralPatterns.Proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Program" />
         <item itemvalue="Application.StructuralPatterns.Flyweight.Program" />
         <item itemvalue="Application.FlyweightTest" />
         <item itemvalue="Application.StructuralPatterns.Facade.Program" />
         <item itemvalue="Application.StructuralPatterns.Decorator.Program" />
-        <item itemvalue="Application.StructuralPatterns.Composite.Program" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662994773466</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add Flyweight">
+      <created>1662998351162</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1662998351162</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,6 +246,7 @@
     <MESSAGE value="add Composite" />
     <MESSAGE value="add Decorator" />
     <MESSAGE value="add Facade" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Facade" />
+    <MESSAGE value="add Flyweight" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Flyweight" />
   </component>
 </project>
