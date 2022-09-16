@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a828bc5-5307-479f-9b9e-8d27439b9494" name="Changes" comment="add Proxy">
-      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Command/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Command/DeleteCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Command/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Command/InsertCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Command/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Command/SelectCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Command/UpdateCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9a828bc5-5307-479f-9b9e-8d27439b9494" name="Changes" comment="add Command">
+      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Interpreter/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Interpreter/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Interpreter/LowerExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Interpreter/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Interpreter/UpperExpression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +44,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -59,7 +56,7 @@
       <recent name="StructuralPatterns.Composite" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Program (1)">
+  <component name="RunManager" selected="Application.Program (2)">
     <configuration name="BehavioralPatterns.ChainOfResponsibility.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BehavioralPatterns.ChainOfResponsibility.Program" />
       <module name="patterns" />
@@ -73,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlyweightTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StructuralPatterns.Flyweight.FlyweightTest" />
+    <configuration name="Program (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BehavioralPatterns.Command.Program" />
       <module name="patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StructuralPatterns.Flyweight.*" />
+          <option name="PATTERN" value="BehavioralPatterns.Command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Program (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BehavioralPatterns.Command.Program" />
+    <configuration name="Program (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BehavioralPatterns.Interpreter.Program" />
       <module name="patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BehavioralPatterns.Command.*" />
+          <option name="PATTERN" value="BehavioralPatterns.Interpreter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Program (2)" />
         <item itemvalue="Application.Program (1)" />
         <item itemvalue="Application.BehavioralPatterns.ChainOfResponsibility.Program" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.StructuralPatterns.Flyweight.Program" />
-        <item itemvalue="Application.FlyweightTest" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663257465783</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add Command">
+      <created>1663330258789</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1663330258789</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,7 +266,8 @@
     <MESSAGE value="add Facade" />
     <MESSAGE value="add Flyweight" />
     <MESSAGE value="add Proxy" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Proxy" />
+    <MESSAGE value="add Command" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Command" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -308,5 +313,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
