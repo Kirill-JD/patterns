@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9a828bc5-5307-479f-9b9e-8d27439b9494" name="Changes" comment="add Proxy">
-      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/ChainOfResponsibility/EmailNotifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/ChainOfResponsibility/Notifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/ChainOfResponsibility/Priority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/ChainOfResponsibility/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/ChainOfResponsibility/SMSNotifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/ChainOfResponsibility/SimpleReportNotifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Command/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Command/DeleteCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Command/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Command/InsertCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Command/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Command/SelectCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Command/UpdateCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,14 +42,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/It/IdeaProjects/patterns/src/StructuralPatterns/Proxy&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\It\IdeaProjects\patterns\src\StructuralPatterns\Proxy" />
@@ -54,7 +59,7 @@
       <recent name="StructuralPatterns.Composite" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BehavioralPatterns.ChainOfResponsibility.Program">
+  <component name="RunManager" selected="Application.Program (1)">
     <configuration name="BehavioralPatterns.ChainOfResponsibility.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BehavioralPatterns.ChainOfResponsibility.Program" />
       <module name="patterns" />
@@ -81,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StructuralPatterns.Proxy.Program" />
+    <configuration name="Program (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BehavioralPatterns.Command.Program" />
       <module name="patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StructuralPatterns.Proxy.*" />
+          <option name="PATTERN" value="BehavioralPatterns.Command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StructuralPatterns.Facade.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StructuralPatterns.Facade.Program" />
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StructuralPatterns.Proxy.Program" />
       <module name="patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StructuralPatterns.Facade.*" />
+          <option name="PATTERN" value="StructuralPatterns.Proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Program (1)" />
         <item itemvalue="Application.BehavioralPatterns.ChainOfResponsibility.Program" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.StructuralPatterns.Flyweight.Program" />
         <item itemvalue="Application.FlyweightTest" />
-        <item itemvalue="Application.StructuralPatterns.Facade.Program" />
       </list>
     </recent_temporary>
   </component>
