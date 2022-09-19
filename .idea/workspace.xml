@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a828bc5-5307-479f-9b9e-8d27439b9494" name="Changes" comment="add State">
-      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Strategy/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Strategy/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Strategy/Start.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Strategy/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Strategy/Stop.java" afterDir="false" />
+    <list default="true" id="9a828bc5-5307-479f-9b9e-8d27439b9494" name="Changes" comment="add Strategy">
+      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/TemplateMethod/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/TemplateMethod/NewsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/TemplateMethod/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/TemplateMethod/WebsiteTemplate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehavioralPatterns/State/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralPatterns/State/Context.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehavioralPatterns/State/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralPatterns/State/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehavioralPatterns/State/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralPatterns/State/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehavioralPatterns/State/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralPatterns/State/State.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BehavioralPatterns/State/Stop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralPatterns/State/Stop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +65,7 @@
       <recent name="StructuralPatterns.Composite" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Program (1)">
+  <component name="RunManager" selected="Application.Program (3)">
     <configuration name="Program (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BehavioralPatterns.State.Program" />
       <module name="patterns" />
@@ -98,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Program (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BehavioralPatterns.Mediator.Program" />
+    <configuration name="Program (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BehavioralPatterns.TemplateMethod.Program" />
       <module name="patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BehavioralPatterns.Mediator.*" />
+          <option name="PATTERN" value="BehavioralPatterns.TemplateMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Program (3)" />
         <item itemvalue="Application.Program (1)" />
         <item itemvalue="Application.Program (2)" />
         <item itemvalue="Application.Program (5)" />
         <item itemvalue="Application.Program" />
-        <item itemvalue="Application.Program (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663587558065</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="add Strategy">
+      <created>1663591536845</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1663591536845</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -330,7 +331,8 @@
     <MESSAGE value="add Memento" />
     <MESSAGE value="add Observer" />
     <MESSAGE value="add State" />
-    <option name="LAST_COMMIT_MESSAGE" value="add State" />
+    <MESSAGE value="add Strategy" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Strategy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
