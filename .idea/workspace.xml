@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a828bc5-5307-479f-9b9e-8d27439b9494" name="Changes" comment="add Observer">
-      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/State/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/State/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/State/Start.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/State/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/State/Stop.java" afterDir="false" />
+    <list default="true" id="9a828bc5-5307-479f-9b9e-8d27439b9494" name="Changes" comment="add State">
+      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Strategy/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Strategy/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Strategy/Start.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Strategy/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BehavioralPatterns/Strategy/Stop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralPatterns/State/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralPatterns/State/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralPatterns/State/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralPatterns/State/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralPatterns/State/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralPatterns/State/Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralPatterns/State/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralPatterns/State/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BehavioralPatterns/State/Stop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BehavioralPatterns/State/Stop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +34,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -41,6 +54,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/BehavioralPatterns/Strategy" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -48,6 +62,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/BehavioralPatterns/Strategy" />
       <recent name="C:\Users\It\IdeaProjects\patterns\src\StructuralPatterns\Proxy" />
       <recent name="C:\Users\It\IdeaProjects\patterns\src\StructuralPatterns\Flyweight" />
       <recent name="C:\Users\It\IdeaProjects\patterns\src\StructuralPatterns\Facade" />
@@ -70,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Program (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BehavioralPatterns.Iterator.Program" />
+    <configuration name="Program (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BehavioralPatterns.Strategy.Program" />
       <module name="patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BehavioralPatterns.Iterator.*" />
+          <option name="PATTERN" value="BehavioralPatterns.Strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,10 +140,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Program (1)" />
+        <item itemvalue="Application.Program (2)" />
         <item itemvalue="Application.Program (5)" />
         <item itemvalue="Application.Program" />
         <item itemvalue="Application.Program (4)" />
-        <item itemvalue="Application.Program (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663581068331</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add State">
+      <created>1663587558065</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1663587558065</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -307,7 +329,8 @@
     <MESSAGE value="add Mediator" />
     <MESSAGE value="add Memento" />
     <MESSAGE value="add Observer" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Observer" />
+    <MESSAGE value="add State" />
+    <option name="LAST_COMMIT_MESSAGE" value="add State" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

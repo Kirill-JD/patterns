@@ -5,4 +5,9 @@ public class Stop implements State{
     public void doAction() {
         System.out.println("Stop");
     }
+
+    @Override
+    public void next(Context context) {
+        context.setState(new Start());
+    }
 }
